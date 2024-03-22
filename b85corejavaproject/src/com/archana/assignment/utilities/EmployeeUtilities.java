@@ -1,26 +1,21 @@
 package com.archana.assignment.utilities;
-
-import com.archana.assignment.employees.Developer;
 import com.archana.assignment.employees.Manager;
-
-import employees.Employee;
+import com.archana.assignment.employees.Developer;
 
 public class EmployeeUtilities {
-		
-	    public  void printEmployeeDetails(Manager manager) {
-	    	System.out.println("Employee Details:");
-	    	System.out.println("Name:"+ manager.getName());
-	    	System.out.println("ID:"+manager.getId());
-	    	System.out.println("Salary:"+manager.getSalary());
-	    	}
 
-		public void printEmployeeDetails(Developer developer) {
-			System.out.println("Employee Details:");
-	    	System.out.println("Name:"+ developer.getName());
-	    	System.out.println("ID:"+developer.getId());
-	    	System.out.println("Salary:"+developer.getSalary());
-		
+	    public static void displayManagerDetails(Manager manager) {
+		        System.out.println("Manager Name: " + manager.getName());
+		        System.out.println("Manager ID: " + manager.getEmployeeId());
+		        System.out.println("Manager Salary: " + manager.getSalary());
+		        System.out.println("Manager Department: " + manager.getDepartment());
+		    }
+
+		public static void displayDeveloperDetails(Developer developer) {
+		        System.out.println("Developer Name: " + developer.getName());
+		        System.out.println("Developer ID: " + developer.getEmployeeId());
+		        System.out.println("Developer Salary: " + developer.getSalary());
+		        System.out.println("Developer Programming Language: " + developer.getProgrammingLanguage());
+		    }
 			
 		}
-
-	}

@@ -1,13 +1,12 @@
 package com.tnsif.encapsulation;
 
 public class Student {
-	public String studentName;
+	 public String studentName;
      public long studentPhNo;
      public String studentEmail;
-   public String USN;
-    
-     
-     public String getStudentName() {
+     public String USN;
+ 
+	public String getStudentName() {
 		return studentName;
 	}
 	public void setStudentName(String studentName) {

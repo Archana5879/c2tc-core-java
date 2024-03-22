@@ -1,40 +1,38 @@
 package com.archana.assignment.employees;
 
 public class Employee {
+	    private String name;
+	    private int employeeId;
+	    private double salary;
 
-			public static int employee_id;
-			public static String employee_name;
-			public double employee_salary;
-			
-			public Employee(int employee_id, String employee_name, double employee_salary) {
-				super();
-				this.employee_id = employee_id;
-				this.employee_name = employee_name;
-				this.employee_salary = employee_salary;
-			}
-			public int getEmployee_id() {
-				return employee_id;
-			}
-			public void setEmployee_id(int employee_id) {
-				this.employee_id = employee_id;
-			}
-			public static String getEmployee_name() {
-				return employee_name;
-			}
-			public void setEmployee_name(String employee_name) {
-				this.employee_name = employee_name;
-			}
-			public double getEmployee_salary() {
-				return employee_salary;
-			}
-			public void setEmployee_salary(double employee_salary) {
-				this.employee_salary = employee_salary;
-			}
-			@Override
-			public String toString() {
-				return "Employee [employee_id=" + employee_id + ", employee_name=" + employee_name
-						+ ", employee_salary=" + employee_salary + "]";
-			}
-			
+	    public Employee(String name, int employeeId, double salary) {
+	        this.name = name;
+	        this.employeeId = employeeId;
+	        this.salary = salary;
+	    }
 
+	    // Getter and setter methods
+	    public String getName() {
+	        return name;
+	    }
+
+	    public void setName(String name) {
+	        this.name = name;
+	    }
+
+	    public int getEmployeeId() {
+	        return employeeId;
+	    }
+
+	    public void setEmployeeId(int employeeId) {
+	        this.employeeId = employeeId;
+	    }
+
+	    public double getSalary() {
+	        return salary;
+	    }
+
+	    public void setSalary(double salary) {
+	        this.salary = salary;
+	    }
 	}
