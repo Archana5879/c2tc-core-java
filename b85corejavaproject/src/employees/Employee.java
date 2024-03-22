@@ -2,10 +2,16 @@ package employees;
 
 public class Employee {
 
-	private int employee_id;
-	private String employee_name;
-	private double employee_salary;
+	public int employee_id;
+	public String employee_name;
+	public double employee_salary;
 	
+	public Employee(int employee_id, String employee_name, double employee_salary) {
+		super();
+		this.employee_id = employee_id;
+		this.employee_name = employee_name;
+		this.employee_salary = employee_salary;
+	}
 	public int getEmployee_id() {
 		return employee_id;
 	}
@@ -26,7 +32,18 @@ public class Employee {
 	}
 	@Override
 	public String toString() {
-		return "Employee [employee_id=" + employee_id + ", employee_name=" + employee_name + ", employee_salary="
-				+ employee_salary + "]";
+		return "Employee [employee_id=" + employee_id + ", employee_name=" + employee_name
+				+ ", employee_salary=" + employee_salary + "]";
 	}
+	public String getName() {
+		return null;
 	}
+	public String getId() {
+			return null;
+	}
+	public String getSalary() {
+		return null;
+	}
+	
+
+}
