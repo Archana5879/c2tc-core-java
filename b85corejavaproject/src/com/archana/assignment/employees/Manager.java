@@ -20,6 +20,15 @@ public class Manager extends Employee  {
 	public void setDepartment(String department) {
 		this.department = department;
 	}
+	public String getName() {
+		return null;
+	}
+	public String getId() {
+		return null;
+	}
+	public String getSalary() {
+		return null;
+	}
 	
 }
 
