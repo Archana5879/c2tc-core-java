@@ -1,7 +1,6 @@
-package com.tnsif.demo;
+package com.tnsif.inheritance;
 
 public class Citizen {
-
 	private	String name;
 	private String aadharNo;
 	private String address;
@@ -42,5 +41,5 @@ public class Citizen {
 	public String toString() {
 		return "Citizen [name=" + name + ", aadharNo=" + aadharNo + ", address=" + address + ", phno=" + phno + "]";
 	}
-}
 
+}

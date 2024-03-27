@@ -1,4 +1,4 @@
-package com.tnsif.demo;
+package com.tnsif.inheritance;
 
 public class Student extends Citizen {
 	private int rollNo;
@@ -32,4 +32,5 @@ public class Student extends Citizen {
 				+ "]";
 	}
 	
+
 }
